@@ -100,7 +100,7 @@
 <meta name="keywords" content="杂谈">
 <meta property="og:type" content="article">
 <meta property="og:title" content="你好世界">
-<meta property="og:url" content="http://yoursite.com/2019/05/25/hello/index.html">
+<meta property="og:url" content="https://huangmb.github.io/2019/05/25/hello/index.html">
 <meta property="og:site_name" content="Bob Huang&#39;s Blog">
 <meta property="og:description" content="没事瞎写">
 <meta property="og:locale" content="zh-CN">
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/05/25/hello/">
+  <link rel="canonical" href="https://huangmb.github.io/2019/05/25/hello/">
 
 
 
@@ -132,6 +132,16 @@
 
 
 
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?acf871564e7ad5905d170c44bcef1797";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -381,7 +391,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/25/hello/">
+    <link itemprop="mainEntityOfPage" href="https://huangmb.github.io/2019/05/25/hello/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Bob Huang">
@@ -469,6 +479,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/05/25/hello/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/05/25/hello/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -544,7 +567,64 @@
       
     
     
+      <div>
+        <div id="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
 
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/wechatpay.jpg" alt="Bob Huang 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/alipay.jpg" alt="Bob Huang 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        
+
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Bob Huang</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="https://huangmb.github.io/2019/05/25/hello/" title="你好世界">https://huangmb.github.io/2019/05/25/hello/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
     
 
     <footer class="post-footer">
@@ -593,6 +673,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -758,7 +842,9 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">4k</span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    
+    <span title="站点总字数">5k</span>
   
 
   
@@ -767,7 +853,9 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">4 分钟</span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    
+    <span title="站点阅读时长">5 分钟</span>
   
 </div>
 
@@ -913,6 +1001,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'OGlEgQx6R02jGTIwx2X0Ugok-gzGzoHsz',
+    appKey: 'lQ9sSmzRv2ljWQ68UBe2j9Nb',
+    placeholder: '来了老弟',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   

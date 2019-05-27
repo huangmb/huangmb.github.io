@@ -100,7 +100,7 @@
 <meta name="keywords" content="Android,Kotlin,React Native,Spring MVC,NodeJs">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于我">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:url" content="https://huangmb.github.io/about/index.html">
 <meta property="og:site_name" content="Bob Huang&#39;s Blog">
 <meta property="og:description" content="hello，我是黄名堡，毕业于南京理工大学，高级Android工程师，擅长性能优化、跨平台、Kotlin，极客精神">
 <meta property="og:locale" content="zh-CN">
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/about/">
+  <link rel="canonical" href="https://huangmb.github.io/about/">
 
 
 
@@ -132,6 +132,16 @@
 
 
 
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?acf871564e7ad5905d170c44bcef1797";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -436,6 +446,10 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+
+  
 
 
 
@@ -599,7 +613,9 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">4k</span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    
+    <span title="站点总字数">5k</span>
   
 
   
@@ -608,7 +624,9 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">4 分钟</span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    
+    <span title="站点阅读时长">5 分钟</span>
   
 </div>
 
@@ -754,6 +772,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'OGlEgQx6R02jGTIwx2X0Ugok-gzGzoHsz',
+    appKey: 'lQ9sSmzRv2ljWQ68UBe2j9Nb',
+    placeholder: '来了老弟',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
