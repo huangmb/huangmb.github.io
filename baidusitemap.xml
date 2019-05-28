@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://huangmb.github.io/2019/05/28/Hexo%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81/</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>  <url>
     <loc>https://huangmb.github.io/2019/05/26/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2019-05-27</lastmod>
+    <lastmod>2019-05-28</lastmod>
   </url>  <url>
     <loc>https://huangmb.github.io/2019/05/25/hello/</loc>
     <lastmod>2019-05-26</lastmod>
