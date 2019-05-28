@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huangmb.github.io/about/index.html</loc>
+    
+    <lastmod>2019-05-28T15:55:18.857Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://huangmb.github.io/2019/05/28/Hexo%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81/</loc>
     
     <lastmod>2019-05-28T14:17:05.112Z</lastmod>
@@ -16,20 +23,6 @@
   </url>
   
   <url>
-    <loc>https://huangmb.github.io/2019/05/25/hello/</loc>
-    
-    <lastmod>2019-05-26T11:55:22.607Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://huangmb.github.io/about/index.html</loc>
-    
-    <lastmod>2019-05-26T10:26:13.819Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://huangmb.github.io/tags/index.html</loc>
     
     <lastmod>2019-05-26T09:31:39.163Z</lastmod>
@@ -40,6 +33,13 @@
     <loc>https://huangmb.github.io/categories/index.html</loc>
     
     <lastmod>2019-05-26T09:31:29.163Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://huangmb.github.io/2019/05/25/hello/</loc>
+    
+    <lastmod>2019-05-25T12:20:00.000Z</lastmod>
     
   </url>
   

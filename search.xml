@@ -27,7 +27,7 @@
   <entry>
     <title><![CDATA[你好世界]]></title>
     <url>%2F2019%2F05%2F25%2Fhello%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[Hello World!多么亲切的来自程序猿的问候。今天，终于开通了自己的博客，我会在这里和大家分享技术、经验以及一些唠嗑，欢迎大佬拍砖。后面文章会在这里首发，再同步到简书、掘金以及公众号上。 简书 https://www.jianshu.com/u/05f0e6a41c4e 掘金 https://juejin.im/user/5be44594e51d450e6f6618a5 公众号]]></content>
       <categories>
         <category>杂谈</category>
       </categories>
