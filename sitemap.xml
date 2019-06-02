@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huangmb.github.io/2019/06/02/js%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E7%9A%84this/</loc>
+    
+    <lastmod>2019-06-02T15:31:20.671Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://huangmb.github.io/2019/06/02/%E5%8A%A8%E6%89%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AAJavaScript%E7%9A%84AOP/</loc>
+    
+    <lastmod>2019-06-02T15:29:21.534Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://huangmb.github.io/about/index.html</loc>
     
-    <lastmod>2019-05-28T15:55:18.857Z</lastmod>
+    <lastmod>2019-05-28T16:00:03.137Z</lastmod>
     
   </url>
   
